@@ -16,7 +16,7 @@ const Bookings = () => {
     // fetch(url)
     //   .then((res) => res.json())
     //   .then((data) => setBookings(data));
-  }, [url]);
+  }, [url]); 
 
   const handleDelete = id => {
     const proceed = confirm('Are you sure you want to delete?');
